@@ -43,14 +43,15 @@ The website can be deployed easily on **GitHub Pages, Netlify, or Vercel**.
    git clone https://github.com/aeshamangukiya/my-resume-html.git
    # or
    git clone git@github.com:aeshamangukiya/my-resume-html.git
-
-   2. **Run Locally:**
+   ```
+   
+ 2. **Run Locally:**
 -  Open index.html directly in your browser
     Or start a local server (example using Python):
-
+   
    ```bash
    python -m http.server 8080
-   
+   ```
 ---
 ## Project Structure
 
@@ -72,14 +73,14 @@ The website can be deployed easily on **GitHub Pages, Netlify, or Vercel**.
 
 ## Deployment
 
-**📌 GitHub Pages**
+**GitHub Pages**
 - Push project to a GitHub repository
 - Navigate to Settings > Pages
 - Select main branch and save
 - Access your site at:
 
 ```bash
-https://your-username.github.io/my-resume-html/
+https://github.com/aeshamangukiya/my-resume-html
 ```
 ---
 ## Alternative Hosting
@@ -87,6 +88,7 @@ https://your-username.github.io/my-resume-html/
 - [Netlify](https://www.netlify.com/)  
 - [Vercel](https://vercel.com/)  
 ---
+
 ## Naming Conventions
 
 | Component | Convention  | Example     |
@@ -109,3 +111,4 @@ https://your-username.github.io/my-resume-html/
 - Maintained by: Aesha Mangukiya
 - Email: aeshamangukiya1@gmail.com
 - GitHub: [GitHub: aeshamangukiya](https://github.com/aeshamangukiya)
+- My Netlify URL: [Netlify: Aesha_Mangukiya's_QA_Engineer_Resume](https://aeshamangukiyaqaengineerresume.netlify.app)
