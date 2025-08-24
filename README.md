@@ -113,7 +113,7 @@ https://github.com/aeshamangukiya/my-resume-html
 - GitHub: [GitHub: aeshamangukiya](https://github.com/aeshamangukiya)
 - My Netlify URL: [Netlify: Aesha_Mangukiya's_QA_Engineer_Resume](https://aeshamangukiyaqaengineerresume.netlify.app)
   
-  ---
+---
   
 ## Contributions
 Pull requests, suggestions, and issue reports are welcome!  
