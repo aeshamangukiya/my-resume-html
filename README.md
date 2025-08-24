@@ -112,3 +112,14 @@ https://github.com/aeshamangukiya/my-resume-html
 - Email: aeshamangukiya1@gmail.com
 - GitHub: [GitHub: aeshamangukiya](https://github.com/aeshamangukiya)
 - My Netlify URL: [Netlify: Aesha_Mangukiya's_QA_Engineer_Resume](https://aeshamangukiyaqaengineerresume.netlify.app)
+  
+  ---
+  
+## Contributions
+Pull requests, suggestions, and issue reports are welcome!  
+
+- Feel free to suggest improvements or new features.
+- Report bugs or broken links for faster fixes.
+- Submit pull requests with enhancements, documentation updates, or styling improvements.
+- Your contributions help make this resume website more accessible and professional.
+
