@@ -13,148 +13,293 @@
 </head>
 
 <body>
+
+  <!-- ===== Floating Download PDF Button ===== -->
+  <div class="download-btn-floating">
+    <button id="download-pdf">📄 Download Resume</button>
+  </div>
+
+  <!-- ===== Resume Container ===== -->
   <div class="container">
-    <!-- Header -->
+
+    <!-- ===== Header Section ===== -->
     <header>
       <h1>Aesha Mangukiya</h1>
       <div class="subtitle">QA Engineer</div>
-      <div class="contact">
+
+      <!-- Contact Information -->
+      <address class="contact">
         <div>📧 <a href="mailto:aeshamangukiya1@gmail.com">aeshamangukiya1@gmail.com</a></div>
         <div>📞 +91 72290 17183</div>
         <div>📍 Surat, Gujarat, India</div>
         <div>🔗 
-          <a href="https://www.linkedin.com/in/aesha-mangukiya-715535360/" target="_blank">LinkedIn</a> · 
-          <a href="https://github.com/aeshamangukiya" target="_blank">GitHub</a> 
+          <a href="https://www.linkedin.com/in/aesha-mangukiya-715535360/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · 
+          <a href="https://github.com/aeshamangukiya" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
-      </div>
+      </address>
     </header>
 
-    <!-- Main Content -->
+    <!-- ===== Main Resume Content ===== -->
     <main>
-      <!-- Profile -->
-      <section>
+
+      <!-- ===== Profile Section ===== -->
+      <section class="profile-details">
         <h2>Profile</h2>
-        <p>
-         I'm a passionate and detail-oriented QA Engineer with 1.10+ years of experience in Manual and Automation Testing. Skilled in Java, Selenium WebDriver, TestNG, Maven, Page Object Model (POM), Postman, Cucumber, JMeter, and Playwright, I’ve tested web-based applications, APIs, and databases to ensure high-quality software.
-        </p>
+<p>
+  Passionate and detail-oriented <strong>QA Engineer</strong> with <strong>1.10+ years of experience</strong> in 
+  <strong>Manual</strong>, <strong>Automation</strong>, <strong>API</strong>, and <strong>Database Testing</strong> across 
+  <strong>Web</strong> and <strong>Mobile applications</strong>. Skilled in applying industry-standard QA methodologies, including 
+  test planning, test case design, automation frameworks, CI/CD integration, and security testing. Strong understanding of QA processes, 
+  testing principles, and best practices. Hands-on experience validating complex systems through both manual and automated approaches 
+  to ensure high-quality, reliable, and scalable software delivery.
+</p>
+
+
+        <ul class="roles-list">
+          <li>
+            <strong>Manual Testing:</strong> Skilled in the full testing lifecycle — from requirement analysis and test design 
+            to execution, defect management, and reporting. Familiar with test management tools like <strong>JIRA</strong> and 
+            <strong>TestRail</strong>, ensuring clear communication, comprehensive coverage, and quality delivery.
+          </li>
+
+          <li>
+            <strong>Automation Testing:</strong> Built and maintained a robust <strong>Hybrid Test Automation Framework</strong> using 
+            <strong>Java</strong>, <strong>Selenium WebDriver</strong>, <strong>TestNG</strong>, <strong>Maven</strong>, <strong>POM</strong>, 
+            and <strong>Selenium Grid</strong> for parallel and cross-browser testing. Integrated detailed reporting with 
+            <strong>ExtentReports</strong> and <strong>Log4j2</strong>, and implemented CI/CD pipelines with <strong>Jenkins</strong>, 
+            improving test efficiency, accuracy, and repeatability.
+          </li>
+
+          <li>
+            <strong>API & Database Testing:</strong> Experienced in validating <strong>RESTful APIs</strong> using 
+            <strong>Postman</strong> and automating API workflows with <strong>Rest Assured</strong>. Performed schema validation, 
+            functional and performance testing, backend data verification with <strong>SQL</strong> queries, and applied 
+            <strong>security testing</strong> practices to ensure data integrity, reliability, and secure API and database operations.
+          </li>
+
+          <li>
+            <strong>Performance Testing:</strong> Conducted load, stress, and scalability testing using <strong>JMeter</strong>, 
+            analyzing system stability, response times, and bottlenecks to ensure efficient, reliable, and scalable software performance.
+          </li>
+
+          <li>
+            <strong>Modern Tools & Practices:</strong> Familiar with <strong>BDD frameworks (Cucumber)</strong>, modern automation tools 
+            like <strong>Playwright</strong> and <strong>Cypress</strong>, <strong>Git/GitHub</strong> for version control, and 
+            <strong>Docker</strong> for containerized testing environments.
+          </li>
+
+          <li>
+            <strong>Collaboration & Delivery:</strong> Actively involved throughout the full software development lifecycle — from 
+            requirement analysis and sprint planning to QA strategy, execution, release, and documentation. Collaborated with 
+            developers, product managers, and stakeholders to ensure timely, accurate, and well-maintained software delivery.
+          </li>
+        </ul>
       </section>
 
-      <!-- Experience -->
+      <!-- ===== Experience Section ===== -->
       <section>
         <h2>Experience</h2>
 
-        <!-- Experience 1 -->
         <div class="job">
           <div class="job-title">QA Engineer</div>
           <div class="company">BlueBit Technologies — Surat, Gujarat, India</div>
           <div class="duration">Jan 2024 – Present</div>
-          <div class="job-tools"><strong>Tools & Technologies:</strong> Selenium, TestNG, Cucumber, Postman, JIRA, Trello, Jenkins, SQL</div>
-          <div class="roles-title"><strong>Roles & Responsibilities:</strong></div>
-          <ul class="roles-list">
-            <li>Lead automation testing using Selenium WebDriver and TestNG.</li>
-            <li>Develop and maintain test cases, test scenarios, and automated scripts for web and mobile applications.</li>
-            <li>Perform functional, regression, and integration testing.</li>
-            <li>Log defects in JIRA and collaborate with developers for timely resolution.</li>
-            <li>Integrate automated tests into CI/CD pipelines to ensure continuous quality.</li>
-          </ul>
+
+          <!-- Project Description -->
+          <div class="project-details">
+            <strong>Project:</strong>
+            <p>
+              Working on a large-scale enterprise <strong>SaaS platform</strong> with multiple critical modules, including 
+              <strong>payment processing</strong>, <strong>bonus/reward systems</strong>, <strong>affiliate/referral programs</strong>, 
+              <strong>CRM</strong>, <strong>reporting & analytics</strong>, and <strong>risk management</strong>. 
+              The platform supports multiple user roles with role-based permissions and limits, real-time transactional data, 
+              multi-language and multi-currency operations, and integrates with various third-party services to provide extended features. 
+              Responsible for end-to-end QA across complex workflows in this high-performance, secure, and scalable platform.
+            </p>
+
+            <div class="roles-title">Key Modules & Responsibilities:</div>
+            <ul class="roles-list">
+              <li>
+                <strong>Automation Testing:</strong> Performed automation testing for core functionalities such as 
+                Login, Registration, Forgot Password, and other internal modules using 
+                <strong>Selenium WebDriver</strong>, <strong>TestNG</strong>, and <strong>Cucumber</strong>, 
+                integrated with <strong>Jenkins CI/CD</strong>.
+              </li>
+
+              <li>
+                <strong>API Testing:</strong> Conducted API testing for multiple modules including Payment, 
+                Login Authentication, User Activities, and other internal APIs using <strong>Postman</strong>.
+              </li>
+
+              <li>
+                <strong>Database Testing:</strong> Executed database testing to verify user data, configurations, 
+                and backend consistency using <strong>SQL</strong>.
+              </li>
+
+              <li>
+                <strong>Security & Reliability:</strong> Ensured accuracy, data security, and reliability for 
+                role-based features and third-party integrations.
+              </li>
+
+              <li>
+                <strong>End-to-End QA Ownership:</strong> Involved in understanding system workflows, defining 
+                expected behavior, reviewing junior testers’ test cases, and finalizing tested modules to ensure 
+                accurate, reliable, and secure delivery.
+              </li>
+
+              <li>
+                <strong>Cross-team Collaboration:</strong> Worked closely with development, DevOps, and product teams 
+                throughout the full software development lifecycle — from requirement analysis and test planning 
+                to release and maintenance — ensuring smooth coordination and timely delivery.
+              </li>
+
+              <li>
+                <strong>Documentation & Reporting:</strong> Maintained detailed QA documentation, test cases, and 
+                traceability across all modules for consistent and transparent reporting.
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <!-- Projects -->
+      <!-- ===== Projects Section ===== -->
       <section>
         <h2>Projects</h2>
 
-        <!-- Project 1 -->
         <div class="project">
           <div class="project-title">
-            AutomationPractice
-            <a href="https://github.com/aeshamangukiya/AutomationPractice" target="_blank" class="project-link">🔗 Link</a>
+            Hybrid Test Automation Framework
+            <a href="https://github.com/aeshamangukiya/AutomationPractice" target="_blank" rel="noopener noreferrer" class="project-link">🔗 GitHub Link</a>
           </div>
-          <div class="project-duration">Jan 2024 – Present</div>
-          <div class="project-tools"><strong>Tools:</strong> Built with Java, Selenium WebDriver, TestNG, Rest Assured, JDBC, Maven, Log4j2 & Extent Reports</div>
+          <div class="project-duration">Jan 2025 – Present</div>
+          <div class="project-tools">
+            Tools & Technologies: Java, Selenium WebDriver, TestNG, Cucumber, Rest Assured, JDBC, Maven, Log4j2, ExtentReports, Jenkins
+          </div>
           <ul class="project-responsibilities">
-            <li>This is an End-to-End Hybrid Test Automation Framework designed for comprehensive testing across UI, API, and Database layers of a web application.</li>
-            <li>The framework is developed using Java, Selenium, Rest Assured, JDBC, TestNG, Maven, and Log4j2, enabling teams to write, manage, and execute reliable automated test cases efficiently.</li>
-            <li>It supports UI, API, and Database validations, following best practices like Page Object Model (POM) and emphasizing modularity, scalability, and maintainability. With integrated logging, parallel execution, and rich HTML reporting, this framework offers a robust solution for automation testing and continuous integration pipelines.</li>
+            <li>Designed and built the complete framework from scratch, combining UI, API, and Database testing into one unified system.</li>
+            <li>Created custom utility classes for WebDriver setup, data handling, and database operations using JDBC.</li>
+            <li>Added API automation using Rest Assured for request and response validation, including token-based authentication and schema checks.</li>
+            <li>Developed a configuration-based setup to run tests across different environments using .properties files.</li>
+            <li>Built custom TestNG listeners and retry analyzers to improve test stability and automatically re-run failed cases.</li>
+            <li>Used Log4j2 for detailed logging and Extent Reports to generate easy-to-read HTML reports with screenshots.</li>
+            <li>Set up Maven profiles and the Surefire plugin for parallel execution and smooth CI/CD integration with Jenkins and GitHub Actions.</li>
+            <li>Defined naming conventions, folder structure, and reusable components to keep the project clean, consistent, and easy to maintain.</li>
           </ul>
-          <div class="project-impact"><strong>Impact:</strong> Reduced testing cycle by 30% and increased defect detection rate by 25%.</div>
+          <div class="project-impact">
+            <strong>Impact:</strong> Delivered a modular and reusable automation framework supporting end-to-end testing, improved test efficiency, and gained strong hands-on experience in framework design and continuous testing setup.
+          </div>
         </div>
       </section>
 
-      <!-- Education -->
-   <section>
-  <h2>Education</h2>
+      <!-- ===== Education Section ===== -->
+      <section>
+        <h2>Education</h2>
 
-  <div class="edu">
-    <div class="edu-item">
-      <div class="edu-year">2020–2023</div>
-      <div class="edu-institute">Veer Narmad South Gujarat University (VNSGU), Surat, Gujarat</div>
-      <div class="edu-degree">Bachelor of Commerce (B.Com)</div>
-    </div>
+        <div class="edu-item">
+          <div class="edu-year">2020–2023</div>
+          <div class="edu-institute">Veer Narmad South Gujarat University (VNSGU), Surat, Gujarat</div>
+          <div class="edu-degree">Bachelor of Commerce (B.Com)</div>
+        </div>
 
-    <div class="edu-item">
-      <div class="edu-year">2019–2020</div>
-      <div class="edu-institute">Mauni Ankur School of Science & Commerce, Surat, Gujarat</div>
-      <div class="edu-degree">Higher Secondary Certificate (HSC)</div>
-    </div>
+        <div class="edu-item">
+          <div class="edu-year">2019–2020</div>
+          <div class="edu-institute">Mauni Ankur School of Science & Commerce, Surat, Gujarat</div>
+          <div class="edu-degree">Higher Secondary Certificate (HSC)</div>
+        </div>
 
-    <div class="edu-item">
-      <div class="edu-year">2017–2018</div>
-      <div class="edu-institute">P.P. Savani Vidyalaya, Surat, Gujarat</div>
-      <div class="edu-degree">Secondary School Certificate (SSC)</div>
-    </div>
-  </div>
-</section>
+        <div class="edu-item">
+          <div class="edu-year">2017–2018</div>
+          <div class="edu-institute">P.P. Savani Vidyalaya, Surat, Gujarat</div>
+          <div class="edu-degree">Secondary School Certificate (SSC)</div>
+        </div>
+      </section>
 
     </main>
 
-    <!-- Sidebar -->
+    <!-- ===== Sidebar Section ===== -->
     <aside class="sidebar">
+
+      <!-- Technical Skills -->
       <section>
         <h3>Technical Skills</h3>
         <div class="skills">
-          <span>Selenium</span>
+          <span>Java</span>
+          <span>Selenium (WebDriver, Grid)</span>
           <span>TestNG</span>
-          <span>Cucumber</span>
+          <span>Rest Assured</span>
           <span>Postman</span>
+          <span>JMeter</span>
+          <span>SQL</span>
           <span>JIRA</span>
           <span>Git/GitHub</span>
           <span>Jenkins</span>
-          <span>CI/CD</span>
-          <span>SQL</span>
+          <span>Cucumber (BDD)</span>
+          <span>Maven</span>
+          <span>Docker</span>
+          <span>Playwright</span>
         </div>
       </section>
 
+      <!-- Soft Skills -->
       <section>
         <h3>Soft Skills</h3>
         <ul>
+          <li>Attention to Detail</li>
           <li>Analytical Thinking</li>
           <li>Problem Solving</li>
           <li>Team Collaboration</li>
-          <li>Attention to Detail</li>
-          <li>Time Management</li>
           <li>Communication</li>
+          <li>Time Management</li>
+          <li>Adaptability</li>
         </ul>
       </section>
 
-      <section>
+      <!-- Certifications -->
+      <section class="sidebar-section">
         <h3>Certifications</h3>
-        <ul>
-          <li>Coursera - Business Analysis & Process Management</li>
-          <li>Simplilearn - Introduction to Software Testing</li>
-          <li>TestAutomationU - Selenium WebDriver with Java</li>
+        <ul class="cert-list">
+          <li>
+            <div class="cert-title">
+              <a href="https://testautomationu.applitools.com/certificate/?id=48a7fb17" target="_blank">Selenium WebDriver with Java</a>
+            </div>
+            <div class="cert-meta">
+              <div><span class="cert-Issued-by-value">TestAutomationU</span></div>
+              <div><strong>Issued:</strong> <span class="cert-Issued-value">Jul 2025</span></div>
+              <a href="https://testautomationu.applitools.com/certificate/?id=48a7fb17" target="_blank" class="cert-link">View Credential</a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="cert-list">
+          <li>
+            <div class="cert-title">
+              <a href="https://simpli-web.app.link/e/gRor1Fn64Ub?trk=public_profile_certification-title" target="_blank">Introduction to Software Testing</a>
+            </div>
+            <div class="cert-meta">
+              <div><span class="cert-Issued-by-value">Simplilearn</span></div>
+              <div><strong>Issued:</strong> <span class="cert-Issued-value">Jul 2025</span></div>
+              <a href="https://simpli-web.app.link/e/gRor1Fn64Ub?trk=public_profile_certification-title" target="_blank" class="cert-link">View Credential</a>
+            </div>
+          </li>
         </ul>
       </section>
 
+      <!-- Achievements -->
       <section>
         <h3>Achievements</h3>
         <ul>
-          <li>Established automation framework and QA best practices.</li>
+          <li>Built a hybrid automation framework covering UI, API, and DB testing.</li>
           <li>Reduced testing cycle by 30% and improved defect detection by 25%.</li>
-          <li>Recognized for mentoring junior QA engineers and improving team efficiency.</li>
+          <li>Mentored junior QA engineers and enhanced overall testing efficiency.</li>
         </ul>
       </section>
+
     </aside>
   </div>
+
+  <!-- ===== Scripts ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>
