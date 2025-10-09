@@ -1,4 +1,5 @@
 :root {
+  /* ===== Theme Colors & Typography ===== */
   --accent: #0f62fe;
   --text: #1a1a1a;
   --muted: #6b7280;
@@ -9,6 +10,7 @@
   --font-serif: 'Source Serif 4', serif;
 }
 
+/* ===== Base Styles ===== */
 body {
   background: var(--bg);
   font-family: var(--font-sans);
@@ -17,6 +19,7 @@ body {
   line-height: 1.5;
 }
 
+/* ===== Layout ===== */
 .container {
   max-width: 1000px;
   margin: 40px auto;
@@ -29,11 +32,12 @@ body {
   gap: 40px;
 }
 
+/* ===== Header Section ===== */
 header {
   grid-column: 1 / -1;
   border-bottom: 2px solid var(--accent);
   padding-bottom: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -54,17 +58,22 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .contact {
   font-size: 14px;
   color: var(--muted);
   margin-top: 10px;
+  font-style: normal;
 }
 
 .contact div {
   margin-bottom: 3px;
 }
 
-/* Sections */
+/* ===== Section Headings ===== */
 h2 {
   font-size: 18px;
   font-weight: 700;
@@ -79,7 +88,16 @@ section {
   margin-bottom: 25px;
 }
 
-/* Experience Section */
+/* ===== Experience & Job Section ===== */
+
+.profile-details p {
+  margin: 4px 0 8px 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
 .job {
   margin-bottom: 25px;
 }
@@ -90,16 +108,41 @@ section {
   margin-bottom: 2px;
 }
 
-.company, .duration, .job-tools {
+.company,
+.duration {
   font-size: 13px;
   color: var(--muted);
   margin-bottom: 4px;
 }
 
 .job-tools {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 4px;
   font-style: italic;
+  font-weight: 600;
 }
 
+/* ===== Project / Work Details Block ===== */
+.project-details {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.project-details strong {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.project-details p {
+  margin: 4px 0 8px 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ===== Roles & Responsibilities ===== */
 .roles-title {
   font-size: 14px;
   font-weight: 600;
@@ -111,7 +154,7 @@ section {
 .roles-list {
   margin-top: 0;
   padding-left: 18px;
-  color: #222;
+  color: #555;
 }
 
 .roles-list li {
@@ -119,41 +162,69 @@ section {
   font-size: 14px;
 }
 
-/* Projects Section */
+.roles-list strong {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* ===== Projects Section ===== */
 .project {
   margin-bottom: 20px;
 }
+
 .project-title {
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 3px;
 }
+
 .project-link {
   margin-left: 6px;
   font-size: 13px;
 }
-.project-duration, .project-tools, .project-impact {
+
+.project-duration {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.project-tools {
   font-size: 13px;
   color: var(--muted);
   margin-bottom: 4px;
+  font-style: italic;
+  font-weight: 600;
 }
+
+.project-tools strong,
+.project-impact strong {
+  color: var(--text);
+  font-weight: 700;
+  margin-right: 3px;
+}
+
 .project-responsibilities {
   margin-top: 4px;
   padding-left: 18px;
   color: #222;
 }
+
 .project-responsibilities li {
   margin-bottom: 5px;
   font-size: 14px;
 }
 
-/* Education Section */
-.edu {
-  margin-top: 10px;
+.project-impact {
+  margin-top: -8px;
+  font-size: 13px;
+  color: var(--muted);
 }
+
+/* ===== Education Section ===== */
 .edu-item {
   margin-bottom: 14px;
 }
+
 .edu-year {
   font-weight: 700;
   text-transform: uppercase;
@@ -161,18 +232,20 @@ section {
   color: #111;
   margin-bottom: 3px;
 }
+
 .edu-institute {
   font-weight: 600;
   font-size: 14px;
   color: #222;
   margin-bottom: 2px;
 }
+
 .edu-degree {
   font-size: 13px;
   color: var(--muted);
 }
 
-/* Sidebar */
+/* ===== Sidebar Section ===== */
 .sidebar h3 {
   color: var(--accent);
   font-size: 16px;
@@ -185,6 +258,7 @@ section {
   flex-wrap: wrap;
   gap: 6px;
 }
+
 .skills span {
   background: #e8f0ff;
   color: #003a9c;
@@ -197,28 +271,128 @@ section {
 .sidebar section {
   margin-bottom: 25px;
 }
-.sidebar section ul {
+
+.sidebar section ul,
+.cert-list {
   margin-top: 6px;
-  padding-left: 18px;
+  padding-left: 20px;
   color: #222;
-}
-.sidebar section ul li {
-  margin-bottom: 5px;
-  font-size: 14px;
+  list-style-position: outside;
 }
 
-/* Responsive */
+.sidebar section ul li,
+.cert-list li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ===== Certifications ===== */
+.cert-list {
+  list-style-type: disc;
+  margin: 0;
+  padding-right: 0;
+}
+
+.cert-list li::marker {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cert-title a {
+  font-weight: 600;
+  display: block;
+  color: #003a9c;
+}
+
+.cert-title a:hover {
+  text-decoration: underline;
+  color: #002b75;
+}
+
+.cert-meta {
+  font-size: 13px;
+  color: #555;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+.cert-meta div {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+  color: #003a9c;
+}
+
+/* ===== Floating Download Button ===== */
+.download-btn-floating {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 9999;
+}
+
+#download-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+#download-pdf:hover {
+  background-color: #0353e9;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+}
+
+/* ===== Responsive Adjustments ===== */
 @media (max-width: 800px) {
   .container {
     grid-template-columns: 1fr;
     padding: 25px;
   }
+
   header {
     text-align: left;
   }
 }
 
-/* Print-friendly */
+@media (max-width: 768px) {
+  .download-btn-floating {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    width: auto;
+  }
+
+  #download-pdf {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* ===== Print-friendly Styles ===== */
 @media print {
   body { background: white; }
   .container {
