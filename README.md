@@ -5,33 +5,35 @@
 
 ## Overview
 
-This is a **personal resume and portfolio website** designed to present professional experience, education, skills, and projects in a clean and responsive format.  
-The project is built using **HTML5** and **CSS3**, ensuring a lightweight and fast-loading user experience.  
+This is a **personal resume and portfolio website** designed to present professional experience, education, skills, and projects in a clean and responsive layout.  
+Built using **HTML5**, **CSS3**, and a lightweight **JavaScript script** for interactivity, including a **Download Resume** feature.
 
-It emphasizes **simplicity, responsiveness, and customizability**, making it a solid foundation for building a professional online presence.  
-The website can be deployed easily on **GitHub Pages, Netlify, or Vercel**.
+It emphasizes **simplicity, responsiveness, and customization**, making it an ideal foundation for building a professional online presence.  
+The website can be easily deployed on **GitHub Pages**, **Netlify**, or **Vercel**.
 
 ---
 
 ## Key Features
 
--  **Responsive Layout** – Optimized for desktop, tablet, and mobile  
--  **Modern & Minimal UI** – Clean and professional look  
--  **Sectioned Structure** – About, Skills, Education, Work, Projects, Contact  
--  **Fast & Lightweight** – Pure HTML + CSS, no frameworks  
--  **Customizable** – Easily edit content, styles, and images  
--  **Free Hosting** – Deploy via GitHub Pages or other platforms  
+- **Responsive Layout** – Optimized for desktop, tablet, and mobile  
+- **Modern & Minimal UI** – Clean and professional look  
+- **Download Resume Button** – Instantly download your resume PDF  
+- **Sectioned Structure** – About, Skills, Education, Work, Projects, Contact  
+- **Fast & Lightweight** – Pure HTML, CSS, and minimal JavaScript  
+- **Customizable** – Easily modify content, color themes, and sections  
+- **Free Hosting** – Deploy via GitHub Pages or other platforms  
 
 ---
 
 ## Tech Stack
 
-| Technology       | Purpose                            |
-|------------------|------------------------------------|
-| HTML5            | Page structure                     |
-| CSS3             | Styling and responsiveness         |
-| GitHub Pages     | Deployment and hosting             |
-| SVG / PNG Assets | Icons and images                   |
+| Technology           | Purpose                            |
+|----------------------|------------------------------------|
+| HTML5                | Page structure                     |
+| CSS3                 | Styling and responsiveness         |
+| JavaScript (script.js) | Interactivity & Download Resume functionality |
+| GitHub Pages         | Deployment and hosting             |
+| SVG / PNG Assets     | Icons and images                   |
 
 ---
 
@@ -44,82 +46,93 @@ The website can be deployed easily on **GitHub Pages, Netlify, or Vercel**.
    # or
    git clone git@github.com:aeshamangukiya/my-resume-html.git
    ```
-   
- 2. **Run Locally:**
--  Open index.html directly in your browser
-    Or start a local server (example using Python):
+
+2. **Run Locally:**
+   - Open `index.html` directly in your browser  
+   - Or start a local server (example using Python):
    
    ```bash
    python -m http.server 8080
    ```
+
 ---
+
 ## Project Structure
 
 <details> <summary>Click to expand</summary>
 
 ```text
 📁 my-resume-html-main/
-│── 📄 index.html        # Main resume/portfolio page
-│── 📄 style.css         # Stylesheet for layout and design
-│── 📁 images/           # Icons, logos, and assets
+│── 📄 index.html         # Main resume/portfolio page
+│── 📄 style.css          # Stylesheet for layout and design
+│── 📄 script.js          # JavaScript file for interactivity and resume download
+│── 📁 images/            # Icons, logos, and assets
 │   ├── asset_1.svg
 │   ├── asset_2.svg
 │   ├── asset_3.svg
 │   ├── asset_4.svg
 │   └── img_1.png
-📄 README.md             # Project documentation
+📄 README.md              # Project documentation
 ```
 </details>
+
+---
 
 ## Deployment
 
 **GitHub Pages**
-- Push project to a GitHub repository
-- Navigate to Settings > Pages
-- Select main branch and save
-- Access your site at:
+1. Push the project to your GitHub repository  
+2. Navigate to **Settings → Pages**  
+3. Select **main branch → Save**  
+4. Access your live site at:
 
 ```bash
-https://github.com/aeshamangukiya/my-resume-html
+https://github.com/aeshamangukiya/my-resume-html.git
 ```
+
 ---
-## Alternative Hosting
+
+## 🌍 Alternative Hosting
 
 - [Netlify](https://www.netlify.com/)  
 - [Vercel](https://vercel.com/)  
+
 ---
 
 ## Naming Conventions
 
-| Component | Convention  | Example     |
-|-----------|-------------|-------------|
-| Files     | kebab-case  | `style.css` |
-| Folders   | kebab-case  | `images/`   |
+| Component | Convention  | Example       |
+|-----------|-------------|---------------|
+| Files     | kebab-case  | `style.css`   |
+| Folders   | kebab-case  | `images/`     |
 | Assets    | snake_case  | `asset_1.svg` |
 
 ---
 
 ## Future Improvements
-1. Dark/Light mode toggle
-2. Downloadable PDF Resume button
-3. Animations and transitions
-4. Searchable/filterable project section
-5. Analytics integration
+
+1. Dark/Light mode toggle  
+2. Animations and transitions  
+3. Searchable/filterable project section  
+4. Analytics integration  
+
 ---
-   
+
 ## Contact & Credits
-- Maintained by: Aesha Mangukiya
-- Email: aeshamangukiya1@gmail.com
-- GitHub: [GitHub: aeshamangukiya](https://github.com/aeshamangukiya)
-- My Netlify URL: [Netlify: Aesha_Mangukiya's_QA_Engineer_Resume](https://aeshamangukiyaqaengineerresume.netlify.app)
-  
+
+- **Maintained by:** Aesha Mangukiya  
+- **Email:** aeshamangukiya1@gmail.com  
+- **GitHub:** [aeshamangukiya](https://github.com/aeshamangukiya)  
+- **Live Resume:** [Netlify: Aesha Mangukiya’s QA Engineer Resume](https://aeshamangukiyaqaengineerresume.netlify.app)  
+
 ---
-  
+
 ## Contributions
+
 Pull requests, suggestions, and issue reports are welcome!  
 
-- Feel free to suggest improvements or new features.
-- Report bugs or broken links for faster fixes.
-- Submit pull requests with enhancements, documentation updates, or styling improvements.
-- Your contributions help make this resume website more accessible and professional.
+- Suggest improvements or new features  
+- Report bugs or broken links  
+- Submit pull requests for styling or documentation updates  
 
+Your contributions help make this resume website more polished, accessible, and professional.
