@@ -14,11 +14,6 @@
 
 <body>
 
-  <!-- ===== Floating Download PDF Button ===== -->
-  <div class="download-btn-floating">
-    <button id="download-pdf">📄 Download Resume</button>
-  </div>
-
   <!-- ===== Resume Container ===== -->
   <div class="container">
 
@@ -41,7 +36,7 @@
     <!-- ===== Main Resume Content ===== -->
     <main>
 
-      <!-- ===== Profile Section ===== -->
+      <!-- ===== Profile Section (FROM NEW VERSION ONLY) ===== -->
       <section class="profile-details">
         <h2>Profile</h2>
 
@@ -73,11 +68,10 @@
         </ul>
       </section>
 
-      <!-- ===== Experience Section ===== -->
+      <!-- ===== Experience Section (FROM NEW VERSION ONLY) ===== -->
       <section>
         <h2>Experience</h2>
 
-        <!-- ===== Freelancing FIRST ===== -->
         <div class="job">
           <div class="job-title">QA Engineer (Freelance)</div>
           <div class="company">Independent / Full-Time Freelancing</div>
@@ -101,12 +95,9 @@
           </div>
         </div>
 
-        <!-- ===== BlueBit SECOND ===== -->
         <div class="job">
           <div class="job-title">QA Engineer</div>
-          <div class="company">
-            BlueBit Technologies — Surat, Gujarat, India
-          </div>
+          <div class="company">BlueBit Technologies — Surat, Gujarat, India</div>
           <div class="duration">Jan 2024 – Dec 2025</div>
 
           <div class="project-details">
@@ -131,7 +122,7 @@
         </div>
       </section>
 
-      <!-- ===== Projects Section ===== -->
+      <!-- ===== Projects Section (FROM NEW VERSION ONLY) ===== -->
       <section>
         <h2>Projects</h2>
 
@@ -151,22 +142,21 @@
           </ul>
         </div>
 
-    <div class="project">
-  <div class="project-title">
-    Playwright Test Automation Framework
-    <a href="https://github.com/aeshamangukiya/playwright-test-automation-framework" target="_blank" class="project-link">🔗 GitHub Link</a>
-  </div>
-  <div class="project-duration">Apr 2025 – Present</div>
-  <div class="project-tools">
-    Playwright, JavaScript/TypeScript, Page Object Model, GitHub Actions
-  </div>
-  <ul class="project-responsibilities">
-    <li>Built a Playwright-based automation framework for modern web applications.</li>
-    <li>Implemented Page Object Model for maintainable and reusable test design.</li>
-    <li>Configured cross-browser execution and CI runs using GitHub Actions.</li>
-  </ul>
-</div>
-
+        <div class="project">
+          <div class="project-title">
+            Playwright Test Automation Framework
+            <a href="https://github.com/aeshamangukiya/playwright-test-automation-framework" target="_blank" class="project-link">🔗 GitHub Link</a>
+          </div>
+          <div class="project-duration">Apr 2025 – Present</div>
+          <div class="project-tools">
+            Playwright, JavaScript/TypeScript, Page Object Model, GitHub Actions
+          </div>
+          <ul class="project-responsibilities">
+            <li>Built a Playwright-based automation framework for modern web applications.</li>
+            <li>Implemented Page Object Model for maintainable and reusable test design.</li>
+            <li>Configured cross-browser execution and CI runs using GitHub Actions.</li>
+          </ul>
+        </div>
 
         <div class="project">
           <div class="project-title">
@@ -181,48 +171,49 @@
         </div>
       </section>
 
-      <!-- ===== Education Section ===== -->
+      <!-- ===== Education Section (UNCHANGED FROM OLD) ===== -->
       <section>
         <h2>Education</h2>
 
         <div class="edu-item">
           <div class="edu-year">2020–2023</div>
-          <div class="edu-institute">Veer Narmad South Gujarat University (VNSGU)</div>
+          <div class="edu-institute">Veer Narmad South Gujarat University (VNSGU), Surat, Gujarat</div>
           <div class="edu-degree">Bachelor of Commerce (B.Com)</div>
         </div>
 
         <div class="edu-item">
           <div class="edu-year">2019–2020</div>
-          <div class="edu-institute">Mauni Ankur School of Science & Commerce</div>
+          <div class="edu-institute">Mauni Ankur School of Science & Commerce, Surat, Gujarat</div>
           <div class="edu-degree">Higher Secondary Certificate (HSC)</div>
         </div>
 
         <div class="edu-item">
           <div class="edu-year">2017–2018</div>
-          <div class="edu-institute">P.P. Savani Vidyalaya</div>
+          <div class="edu-institute">P.P. Savani Vidyalaya, Surat, Gujarat</div>
           <div class="edu-degree">Secondary School Certificate (SSC)</div>
         </div>
       </section>
 
     </main>
 
-    <!-- ===== Sidebar Section ===== -->
+    <!-- ===== Sidebar Section (UNCHANGED FROM OLD) ===== -->
     <aside class="sidebar">
 
       <section>
         <h3>Technical Skills</h3>
         <div class="skills">
           <span>Java</span>
-          <span>Selenium</span>
-          <span>Playwright</span>
+          <span>Selenium (WebDriver, Grid)</span>
           <span>TestNG</span>
+          <span>Playwright</span>
           <span>Rest Assured</span>
           <span>Postman</span>
-          <span>SQL</span>
           <span>JMeter</span>
-          <span>Jenkins</span>
+          <span>SQL</span>
+          <span>JIRA</span>
           <span>Git/GitHub</span>
-          <span>Cucumber</span>
+          <span>Jenkins/GitHub Actions</span>
+          <span>Cucumber (BDD)</span>
           <span>Maven</span>
           <span>Docker</span>
         </div>
@@ -234,6 +225,7 @@
           <li>Attention to Detail</li>
           <li>Analytical Thinking</li>
           <li>Problem Solving</li>
+          <li>Team Collaboration</li>
           <li>Communication</li>
           <li>Time Management</li>
           <li>Adaptability</li>
@@ -242,9 +234,31 @@
 
       <section class="sidebar-section">
         <h3>Certifications</h3>
+
         <ul class="cert-list">
-          <li>Selenium WebDriver with Java — TestAutomationU</li>
-          <li>Introduction to Software Testing — Simplilearn</li>
+          <li>
+            <div class="cert-title">
+              <a href="https://testautomationu.applitools.com/certificate/?id=48a7fb17" target="_blank">Selenium WebDriver with Java</a>
+            </div>
+            <div class="cert-meta">
+              <div><span class="cert-Issued-by-value">TestAutomationU</span></div>
+              <div><strong>Issued:</strong> <span class="cert-Issued-value">Jul 2025</span></div>
+              <a href="https://testautomationu.applitools.com/certificate/?id=48a7fb17" target="_blank" class="cert-link">View Credential</a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="cert-list">
+          <li>
+            <div class="cert-title">
+              <a href="https://simpli-web.app.link/e/gRor1Fn64Ub?trk=public_profile_certification-title" target="_blank">Introduction to Software Testing</a>
+            </div>
+            <div class="cert-meta">
+              <div><span class="cert-Issued-by-value">Simplilearn</span></div>
+              <div><strong>Issued:</strong> <span class="cert-Issued-value">Jul 2025</span></div>
+              <a href="https://simpli-web.app.link/e/gRor1Fn64Ub?trk=public_profile_certification-title" target="_blank" class="cert-link">View Credential</a>
+            </div>
+          </li>
         </ul>
       </section>
 
@@ -252,8 +266,8 @@
         <h3>Achievements</h3>
         <ul>
           <li>Built a hybrid automation framework covering UI, API, and DB testing.</li>
-          <li>Reduced testing cycle time and improved defect detection.</li>
-          <li>Mentored junior QA engineers.</li>
+          <li>Reduced testing cycle by 30% and improved defect detection by 25%.</li>
+          <li>Mentored junior QA engineers and enhanced overall testing efficiency.</li>
         </ul>
       </section>
 
